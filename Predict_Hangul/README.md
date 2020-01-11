@@ -2,7 +2,7 @@
 
 Predict handwritten-Hangul image using [Swift for TensorFlow](https://www.tensorflow.org/swift). [Hangul](https://en.wikipedia.org/wiki/Hangul) is the Korean alphabet. This tutorial uses  Hangul PHD08 Dataset for training by ChonBuk National University.
 
-I uses Xcode 11.3, [Swift for TensorFlow Development Snapshot (12/23/19)](https://github.com/tensorflow/swift/blob/master/Installation.md) and Python 3.6.8. Before proceeding this tutorial, I recommend following [Model training walkthrough](https://www.tensorflow.org/swift/tutorials/model_training_walkthrough) with my [pookjw/Practice_Swift_for_TensorFlow/Tutorial](https://github.com/pookjw/Practice_Swift_for_TensorFlow/tree/master/Tutorial) project.
+I used Xcode 11.3, [Swift for TensorFlow Development Snapshot (12/23/19)](https://github.com/tensorflow/swift/blob/master/Installation.md) and Python 3.6.8. Before proceeding this tutorial, I recommend following [Model training walkthrough](https://www.tensorflow.org/swift/tutorials/model_training_walkthrough) with my [pookjw/Practice_Swift_for_TensorFlow/Tutorial](https://github.com/pookjw/Practice_Swift_for_TensorFlow/tree/master/Tutorial) project.
 
 ## Prepare Training, Validation Dataset
 
