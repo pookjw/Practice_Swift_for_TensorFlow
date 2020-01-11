@@ -126,7 +126,7 @@ Epoch 19: Loss: 0.017931798, Accuracy: 0.9966667, Val Loss: 0.32514527, Val Accu
 Epoch 20: Loss: 0.004365056, Accuracy: 0.99965274, Val Loss: 0.0076729646, Val Accuracy: 0.99871796
 ```
 
-If you want to visualize accuracy, loss graph, use this code on `main.swift`
+If you want to visualize accuracy, loss graph, use `plt` on `main.swift`
 
 ```swift
 plt.figure()
