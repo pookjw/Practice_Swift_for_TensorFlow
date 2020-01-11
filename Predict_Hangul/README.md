@@ -85,7 +85,7 @@ let trainDataset: Dataset<HangulBatch> = Dataset(elements: HangulBatch(features:
 let validationDataset: Dataset<HangulBatch> = Dataset(elements: HangulBatch(features: Tensor<Float32>(numpy: validation_images)!, labels: Tensor<Int32>(numpy: validation_labels)!)).batched(batchSize)
 ```
 
-and set model, uses [Adam optimizer](https://www.tensorflow.org/api_docs/python/tf/keras/optimizers/Adam)
+and set model, uses [Adam optimizer](https://www.tensorflow.org/api_docs/python/tf/keras/optimizers/Adam).
 
 ```swift
 var model = HangulModel()
