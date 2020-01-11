@@ -183,3 +183,7 @@ Output below...
 Predicted: [4, 5, 5]
 Answer: [4, 5, 0]
 ```
+
+## Resources
+
+- [Model training walkthrough](https://www.tensorflow.org/swift/tutorials/model_training_walkthrough)
