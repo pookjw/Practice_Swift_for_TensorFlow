@@ -6,7 +6,7 @@ I used Xcode 11.3, [Swift for TensorFlow Development Snapshot (12/23/19)](https:
 
 ## Prepare Training, Validation Dataset
 
-Download Hangul PHD08 Dataset from ChonBuk National University. ([DropBox Link](https://www.dropbox.com/s/69cwkkqt4m1xl55/phd08.alz?dl=0), [Source](http://cv.jbnu.ac.kr/index.php?mid=notice&document_srl=189)) This Dataset is compressed as `.alz`. (I don't know why they did this.) To extract this you have to use `.al`z extractor like [Bandizip](https://en.bandisoft.com/bandizip/) (Windows version is free, but macOS version is paid).
+Download Hangul PHD08 Dataset from ChonBuk National University. ([DropBox Link](https://www.dropbox.com/s/69cwkkqt4m1xl55/phd08.alz?dl=0), [Source](http://cv.jbnu.ac.kr/index.php?mid=notice&document_srl=189)) This Dataset is compressed as `.alz`. (I don't know why they did this.) To extract this you have to use `.alz` extractor like [Bandizip](https://en.bandisoft.com/bandizip/) (Windows version is free, but macOS version is paid).
 
 In Hangul PHD08 Dataset, there are total 2,350 hangul image files like below.
 
