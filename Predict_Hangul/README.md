@@ -187,3 +187,7 @@ Answer: [4, 5, 0]
 ## Resources
 
 - [Model training walkthrough](https://www.tensorflow.org/swift/tutorials/model_training_walkthrough)
+
+- [tensorflow/swift](https://github.com/tensorflow/swift)
+
+- [tensorflow/swift-apis](https://github.com/tensorflow/swift-apis)
