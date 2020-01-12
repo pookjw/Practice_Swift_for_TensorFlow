@@ -58,7 +58,7 @@ phd08_data_1.npy    phd08_data_3.npy    phd08_labels_1.npy    phd08_labels_3.npy
 phd08_data_2.npy    phd08_data_4.npy    phd08_labels_2.npy    phd08_labels_4.npy
 ```
 
-Each data npy files have `(4374, 28, 28)` shape. I will convert to `(4374, 784)` shape. Also each data and labels npy has two Hangul, one of them has 2,187 data. I will seperate 2,187 data to **1,800 data for training**, **387 data for validation**, and concatenate 4 npy files (8 Hangul) using `train_valid_npy.py` located in this project folder. Then I get `(14400, 784)` npy shape for training, `(3096, 784)` npy shape for validation. (1800*8=14400, 387*8=3096)
+Each data npy files have `(4374, 28, 28)` shape. I will convert to `(4374, 784)` shape. Also each data and labels npy has two Hangul, one of them has 2,187 data. I will seperate 2,187 data to **1,800 data for training**, **387 data for validation**, and concatenate 4 npy files (8 Hangul) using `train_valid_npy.py` located in this project folder. Then I get `(14400, 784)` npy shape for training, `(3096, 784)` npy shape for validation. (1800\*8=14400, 387\*8=3096)
 
 `$ python3 train_valid_npy.py`
 
